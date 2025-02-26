@@ -1,10 +1,10 @@
-#include "InputProcessor.h"     // our custom InputProcessor class
-#include "OutputProcessor.h"    // our custom OutputProcessor class
+#include "InputProcessor.h"     // custom InputProcessor class
+#include "OutputProcessor.h"    // custom OutputProcessor class
 
 #include <iostream>             // for cout, endl
 #include <string>               // for string
 #include <vector>               // for vector
-using namespace std;            // so we don't have to type std:: every time
+using namespace std;            
 
 int main() {
     // create an input processor object
@@ -42,6 +42,5 @@ int main() {
     // signal to user program has completed
     cout << "Analysis complete, check file for results" << endl;
 
-    // end our program!
     return 0;
 }
